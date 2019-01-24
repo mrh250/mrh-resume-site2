@@ -47,6 +47,10 @@ p.lead {
   font-weight: 400;
 }
 
+p.hidden {
+  visibility: hidden;
+}
+
 p.lead.bluefont {
   color: #093162
 }

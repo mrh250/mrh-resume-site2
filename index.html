@@ -17,9 +17,13 @@
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="fonts/font-mfizz-2.4.1/font-mfizz.css">
   <!-- Custom styles for this template -->
   <link href="css/resume.css" rel="stylesheet">
+  
+  <!-- Recaptcha script -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 
@@ -268,32 +272,36 @@
 
         <div class="subheading mb-3">Job Related Training</div>
         <ul>
-          <li class="list-inline-item">
+          <li>
             Leading from Within, a Crane Division University course - 2016
           </li>
-          <li class="list-inline-item">
+          <li>
             DAWIA S&T Manager Level III Certification - Attained Nov 2016
           </li>
-          <li class="list-inline-item">
+          <li>
             Developing Emerging Leaders for Tomorrow's Challenges - 2015
           </li>
-          <li class="list-inline-item">
+          <li>
             DAWIA ENG Manager Level II Certification - Attained Nov 2014
           </li>
         </ul>
         <div class="subheading mb-3">Technical Competencies</div>
         <ul>
-          <li class="list-inline-item">
+          <li>
             Data analysis tools: MATLAB, MS Excel
           </li>
-          <li class="list-inline-item">
+          <li>
             Radiation Transport: MCNP, GEANT, SRIM
           </li>
-          <li class="list-inline-item">
-            OS: Windows, Mac, Linux (Ubuntu, CentOS, RHEL)
+          <li>
+            Operating Systems: <i class="fab fa-windows" style="font-size:22px"></i>, <i class="fab fa-apple" style="font-size:22px"></i>,
+            <i class="fab fa-linux" style="font-size:22px"></i> (<i class="icon-ubuntu" style="font-size:22px"></i>, <i class="icon-centos" style="font-size:22px"></i>,
+            <i class="icon-redhat" style="font-size:22px"></i>)
           </li>
-          <li class="list-inline-item">
-            Programming Languages: <i class="fab fa-python"></i>, Fortran, C++, <i class="fab fa-java"></i>, <i class="fab fa-html5"></i>
+          <li>
+            Programming: <i class="fab fa-python" style="font-size:22px"></i>, Fortran, <i class="devicon-cplusplus-plain"
+              style="font-size:22px"></i>, <strong><i class="fab fa-java" style="font-size:22px"></i></strong>, <i
+              class="fab fa-js" style="font-size:22px"></i>, <i class="fab fa-html5" style="font-size:22px"></i>
           </li>
         </ul>
       </div>
@@ -309,8 +317,10 @@
             References.</p>
 
           <!-- We're going to place the form here in the next step -->
-          <form id="contact-form" method="post" action="contact.php" role="form">
-
+          <form id="contact-form" method="post" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
             <div class="messages"></div>
 
             <div class="controls">
@@ -376,7 +386,7 @@
                 </div>
               </div>
             </div>
-
+            <div class="g-recaptcha" data-sitekey="6Lf3hYwUAAAAAI8nUOgaKhXjsBghMaeX5bQ_EIkz"></div>
           </form>
 
       </div>
