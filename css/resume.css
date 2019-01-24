@@ -47,6 +47,9 @@ p.lead {
   font-weight: 400;
 }
 
+p.lead.bluefont {
+  color: #093162
+}
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -72,7 +75,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #093162;
 }
 
 .dev-icons {
@@ -80,7 +83,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #093162;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +93,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color:#093162;
 }
 
 @media (min-width: 992px) {
