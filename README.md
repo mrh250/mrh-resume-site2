@@ -4,7 +4,7 @@ I start from a [Template](https://startbootstrap.com/template-overviews/resume/)
 
 ## Preview
 
-[![Resume Preview](img/frontpage.jpg)](https://matthalstead2.netlify.com/)
+[![Resume Preview](img/frontpage.png)](https://matthalstead2.netlify.com/)
 
 **[View Live Preview](https://matthalstead2.netlify.com/)**
 
